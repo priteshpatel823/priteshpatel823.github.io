@@ -129,7 +129,7 @@ a {
     padding: 20px;
   }
 
-  /* Main column */
+  /* Main column about me*/
   .main {
     flex: 75%;
     background-color: #f5da9f;
@@ -144,24 +144,21 @@ a {
     margin-bottom: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/* Main_2 column my work*/
   .main_2{
+    display: flex;
+    flex-wrap: wrap;
     background-color:  #f3f2e8;
-    padding: 20px;
     margin-top: 20px;
     border-radius: 25px;
     margin-bottom: 20px;
     flex: 100%;
-        display: flex;
-        flex-direction: row;
-        text-align: center;
+    display: flex;
+    text-align: center;
   }
 
-  .container{
-      background-color: grey;
-      height: 300px;
-  }
   .Project_1 {
-    background-color:  #f5da9f;
+    background-color: #f5da9f;
     padding: 10px;
     flex: 25%;
     height: 250px;
@@ -174,7 +171,7 @@ a {
     height: 250px;
     border-radius: 15px;
   }
-  .Project_3{
+ .Project_3{
     background-color: #f5da9f;
     padding: 10px;
     flex: 25%;
@@ -193,7 +190,7 @@ a {
     text-align: center;
   }
 .work{
-    background-color:  #f5da9f;
+    background-color:  #f1f1f1;
     border-radius: 25px;
 }
   /* Footer */
